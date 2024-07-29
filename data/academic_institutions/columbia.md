@@ -2,7 +2,7 @@
 name: Columbia University 
 description: >
  Columbia University is a private Ivy League research university in New York City. 
-url: "https://www.columbia.edu/"
+url: "https://www.columbia.edu/ - [403 Forbidden]"
 logo: academic_institution/columbia.png
 continent: North America
 courses:

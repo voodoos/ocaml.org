@@ -8,7 +8,7 @@ continent: Europe
 courses:
     - name: Programming in OCAML
       acronym: SS 06
-      online_resource: http://cl-informatik.uibk.ac.at/teaching/ss06/ocaml/schedule.php
+      online_resource: http://cl-informatik.uibk.ac.at/teaching/ss06/ocaml/schedule.php - [404 Not Found]
 location:
      lat: 47.2692
      long: 11.4041
