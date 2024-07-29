@@ -4,7 +4,7 @@ logo: success-stories/hyper.png
 background: /success-stories/hyper-bg.jpg
 theme: green
 synopsis: "Hyper Uses OCaml to Build an IoT System for High-Performing Farms."
-url: https://www.hyper.ag/
+url: https://www.hyper.ag/ - [1 Client error: Couldn't resolve host name]
 ---
 
 Hyper.ag provides a scalable sensor analytics and automation infrastructure for indoor and vertical farming. With their product, farmers continuously optimise the crop quality and reduce operational costs by getting access to actionable growth insights and climate control profiles without a dedicated engineering team.
