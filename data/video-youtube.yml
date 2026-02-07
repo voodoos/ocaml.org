@@ -1,3 +1,684 @@
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (12) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/p7BFV2ap4LI?version=3
+  thumbnail: https://i1.ytimg.com/vi/p7BFV2ap4LI/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nS\xE9minaire du 18 d\xE9cembre 2025 : Le
+    chiffrement fonctionnel : agr\xE9ger des donn\xE9es sensibles\n\nIntervenant :
+    David Pointcheval, Cosmian\n\nLe chiffrement fonctionnel (FE, Functional Encryption)
+    est la primitive cryptographique la plus r\xE9cente propos\xE9e par la communaut\xE9
+    cryptographique pour r\xE9pondre aux besoins de confidentialit\xE9 lors de calculs
+    sur les donn\xE9es sensibles. Contrairement au chiffrement totalement homomorphe
+    (FHE, Fully Homomorphic Encryption), le FE permet au calculateur sur les entr\xE9es
+    chiffr\xE9es d\u2019obtenir directement l\u2019\xE9valuation d\u2019une fonction
+    en clair, et les fonctions accessibles restent sous le contr\xF4le du ou des propri\xE9taires
+    des donn\xE9es. Contrairement au calcul multipartite s\xE9curis\xE9, aucune interaction
+    n\u2019est n\xE9cessaire entre les diff\xE9rentes parties, permettant ainsi des
+    calculs totalement asynchrones.\n\nDans cet expos\xE9, nous pr\xE9senterons tout
+    d\u2019abord l\u2019origine de cette primitive, avec le chiffrement fonctionnel
+    \xAB mono-utilisateur \xBB, o\xF9 les donn\xE9es d\u2019une seule entit\xE9 sont
+    chiffr\xE9es. Quelques exemples illustreront les int\xE9r\xEAts du FE, mais aussi
+    ses limites, ainsi que les limites inh\xE9rentes aux calculs s\xE9curis\xE9s en
+    g\xE9n\xE9ral. Ensuite, nous verrons certaines extensions, dont le chiffrement
+    fonctionnel multi-client qui permet \xE0 plusieurs entit\xE9s, qui ne se font
+    nullement confiance, de mettre des donn\xE9es sensibles en commun pour autoriser
+    des agr\xE9gations (et notamment des sommes partielles ou des moyennes pond\xE9r\xE9es).\n\nNous
+    conclurons avec des applications \xE0 l\u2019apprentissage automatique, et en
+    particulier \xE0 la classification confidentielle. Nous verrons alors \xE0 quel
+    point il est important d\u2019identifier pr\xE9cis\xE9ment ce qu\u2019on attend
+    comme r\xE9sultat d'un calcul confidentiel, mais surtout ce que l\u2019on souhaite
+    prot\xE9ger.\n\nRetrouvez les enregistrements audios et vid\xE9os du cycle et
+    son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/seminaire/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nChaire
+    Sciences du logiciel\nProfesseur : Xavier Leroy\n\nRetrouvez tous les enseignements
+    du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-23T14:50:38+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (12) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/qs64_yx3N2g?version=3
+  thumbnail: https://i2.ytimg.com/vi/qs64_yx3N2g/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nCours du 18 d\xE9cembre 2025 : S\xE9curiser
+    le calcul : nouvelles directions et conclusions\n\nProfesseur : Xavier Leroy\nChaire
+    Sciences du logiciel\n\nLa premi\xE8re partie de ce cours a \xE9tudi\xE9 l'utilisation
+    d'une m\xE9moire \xE0 acc\xE8s direct dans le cadre d'un calcul s\xE9curis\xE9,
+    afin d'aller plus loin que les mod\xE8les de calcul \xE0 base de circuits bool\xE9ens
+    ou arithm\xE9tiques utilis\xE9s dans les cours pr\xE9c\xE9dents. Le mod\xE8le
+    de la m\xE9moire inconsciente (ORAM, Oblivious RAM) permet \xE0 un processeur
+    s\xE9curis\xE9 d'acc\xE9der \xE0 une RAM externe sans que les donn\xE9es \xE9chang\xE9es
+    ni les motifs d'acc\xE8s \xE0 la RAM ne r\xE9v\xE8lent quoi que ce soit sur le
+    calcul r\xE9alis\xE9 par le processeur. Nous avons pr\xE9sent\xE9 la premi\xE8re
+    r\xE9alisation de ce concept : l'algorithme \xAB square-root ORAM \xBB de Goldreich
+    et Ostrovsky (1996). Nous avons ensuite envisag\xE9 le cas o\xF9 les adresses
+    des acc\xE8s m\xE9moire sont produites par un circuit \xE9valu\xE9 de mani\xE8re
+    homomorphe. Lin, Mook et Wichs (2023) ont appliqu\xE9 \xE0 ce sc\xE9nario leur
+    approche \xAB DEPIR \xBB (Doubly-Efficient Private Information Retrieval), dans
+    laquelle la m\xE9moire, repr\xE9sent\xE9e par un tableau multidimensionnel, est
+    d'abord chiffr\xE9e avec un chiffrement faiblement homomorphe alg\xE9brique (contenu
+    et adresses), puis repr\xE9sent\xE9e de mani\xE8re relativement compacte et avec
+    des acc\xE8s en temps polylogarithmique \xE0 l'aide de la technique de factorisation
+    rapide de polyn\xF4mes de Kedlaya et Umans (2008).\n\nLa deuxi\xE8me partie du
+    cours \xE9tait consacr\xE9e \xE0 l'obfuscation de programmes : comment rendre
+    le code d'un programme incompr\xE9hensible au point o\xF9 il ne fournit aucune
+    information suppl\xE9mentaire par rapport \xE0 celles obtenues en ex\xE9cutant
+    le programme. Des techniques peu s\xE9curis\xE9es d'obfuscation sont fr\xE9quemment
+    utilis\xE9es pour compliquer la r\xE9tro-ing\xE9ni\xE9rie et le piratage de logiciels.
+    De mani\xE8re beaucoup plus ambitieuse, une obfuscation de qualit\xE9 cryptographique
+    telle que l'obfuscation indistinguable (IO, indistinguishability obfuscation,
+    Barak et al, 2001) permettrait de r\xE9aliser facilement presque toutes les primitives
+    cryptographiques connues, du chiffrement \xE0 cl\xE9 publique au chiffrement homomorphe
+    et bien plus encore. Nous avons tent\xE9 d'expliquer l'extr\xEAme difficult\xE9
+    de r\xE9alisation d'un obfuscateur indistinguable, avec plusieurs propositions
+    utilisant des formes multilin\xE9aires qui se sont r\xE9v\xE9l\xE9es non s\xFBres,
+    et une seule proposition (Jain, Lin et Sahai, 2021) qui r\xE9siste encore.\n\nRetrouvez
+    les enregistrements audios et vid\xE9os du cycle et son texte de pr\xE9sentation
+    :\nhttps://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nRetrouvez
+    tous les enseignements du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-23T14:48:21+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (11) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/5LlPTF8iivE?version=3
+  thumbnail: https://i2.ytimg.com/vi/5LlPTF8iivE/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nS\xE9minaire du 11 d\xE9cembre 2025 : Des
+    preuves zero-knowledge \xE0 l'anonymat en ligne\n\nIntervenant : Michele Orr\xF9,
+    CNRS\n\nCet expos\xE9, en anglais, propose une introduction aux applications des
+    preuves \xE0 divulgation nulle de connaissance (zero-knowledge) pour l\u2019anonymat
+    en ligne.\nApr\xE8s avoir pr\xE9sent\xE9 les notions fondamentales de preuves
+    et d\u2019arguments cryptographiques, nous montrons comment ces outils permettent
+    de v\xE9rifier des propri\xE9t\xE9s ou des calculs sans r\xE9v\xE9ler d\u2019informations
+    sensibles.\n\nLa seconde partie est consacr\xE9e \xE0 deux \xE9tudes de cas :
+    les identit\xE9s et credentials anonymes, permettant une authentification respectant
+    la vie priv\xE9e ; les paiements anonymes, permettant de cacher les montants et
+    les liens entre transactions tout en conservant la s\xE9curit\xE9 du syst\xE8me.\n\nLa
+    pr\xE9sentation met l\u2019accent sur les id\xE9es cryptographiques sous-jacentes
+    et leurs implications pratiques pour la protection de la vie priv\xE9e dans les
+    syst\xE8mes num\xE9riques modernes, en s\u2019appuyant sur les outils pr\xE9sent\xE9s
+    pendant le reste du cours.\n\nRetrouvez les enregistrements audios et vid\xE9os
+    du cycle et son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/seminaire/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nChaire
+    Sciences du logiciel\nProfesseur : Xavier Leroy\n\nRetrouvez tous les enseignements
+    du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-15T09:07:58+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (10) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/E8sk7V--9cM?version=3
+  thumbnail: https://i2.ytimg.com/vi/E8sk7V--9cM/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nCours du 11 d\xE9cembre 2025 : Preuves
+    zero-knowledge\n\nProfesseur : Xavier Leroy\nChaire Sciences du logiciel\n\nUne
+    preuve sans divulgation de connaissance, \xE9galement appel\xE9e preuve \xABzero-knowledge\xBB,
+    est un protocole entre un prouveur, qui d\xE9tient un secret satisfaisant une
+    certaine propri\xE9t\xE9, et une v\xE9rificatrice.  \xC0 l'issue de l'\xE9change,
+    la v\xE9rificatrice est quasi certaine que le prouveur conna\xEEt le secret en
+    question, mais n'a rien appris d'autre sur sa valeur.  Les preuves zero-knowledge
+    ont de nombreuses applications, notamment dans le cadre des blockchains, pour
+    par exemple affirmer des faits sur des donn\xE9es priv\xE9es (par exemple, garantir
+    qu'un vote \xE9lectronique est bien form\xE9, sans r\xE9v\xE9ler le vote); autoriser
+    des actions tout en pr\xE9servant l'anonymat de l'acteur; et d\xE9l\xE9guer des
+    calculs tout en garantissant que le r\xE9sultat est correct.\n\nNous avons commenc\xE9
+    ce cours par l'\xE9tude des protocoles Sigma, un patron de conception de protocoles
+    zero-knowledge en trois interactions: mise en gage, d\xE9fi et r\xE9ponse.  Nous
+    avons ensuite \xE9nonc\xE9 les propri\xE9t\xE9s de s\xE9curit\xE9 de ces protocoles
+    (compl\xE9tude, correction sp\xE9ciale et non-divulgation) et les avons illustr\xE9es
+    \xE0 l'aide du protocole de Schnorr (connaissance d'un logarithme discret) et
+    de sa g\xE9n\xE9ralisation, le protocole de Maurer (connaissance d'un ant\xE9c\xE9dent
+    par un morphisme).  Enfin, nous avons vu comment transformer un protocole Sigma
+    interactif en protocole non-interactif \xE0 l'aide de l'heuristique de Fiat-Shamir.\n\nLa
+    suite du cours a pr\xE9sent\xE9 une construction g\xE9n\xE9rique de \xABzk-SNARKs\xBB
+    : des preuves zero knowledge, succintes (de petite taille) et non-interactives
+    de la connaissance d'une valeur satisfaisant une propri\xE9t\xE9.  L'utilisation
+    de circuits arithm\xE9tiques contraints permet d'exprimer de mani\xE8re concise
+    un grand nombre de propri\xE9t\xE9s.  Nous avons vu comment repr\xE9senter ces
+    circuits contraints sous forme d'\xE9quations polynomiales appel\xE9es QAP (Quadratic
+    Arithmetic Programs).  Apr\xE8s un long d\xE9tour par la preuve de propri\xE9t\xE9s
+    de divisibilit\xE9 de polyn\xF4mes et l'\xE9valuation homomorphe, chiffr\xE9e
+    et authentifi\xE9e de polyn\xF4mes, nous avons d\xE9crit le protocole Pinocchio
+    (Parno et al., 2016), qui construit des preuves zk-SNARK pour des propri\xE9t\xE9s
+    QAP arbitraires.\n\nRetrouvez les enregistrements audios et vid\xE9os du cycle
+    et son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nRetrouvez
+    tous les enseignements du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-15T09:06:28+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (9) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/gzvhg3tteUU?version=3
+  thumbnail: https://i4.ytimg.com/vi/gzvhg3tteUU/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nS\xE9minaire du 4 d\xE9cembre 2025 : Calcul
+    s\xE9curis\xE9 et al\xE9a corr\xE9l\xE9, de la th\xE9orie \xE0 la pratique\n\nIntervenant
+    : Geoffroy Couteau, CNRS\n\nDans cet expos\xE9, nous aborderons le calcul multipartite
+    s\xE9curis\xE9 sous l'angle de son efficacit\xE9 concr\xE8te, et d\xE9taillerons
+    le paradigme du calcul s\xE9curis\xE9 dans le mod\xE8le de l'al\xE9a corr\xE9l\xE9.
+    Dans ce paradigme, les participants ont acc\xE8s \xE0 une source s\xE9curis\xE9e
+    produisant de longues cha\xEEnes al\xE9atoires corr\xE9l\xE9es. Cette approche
+    r\xE9duit la probl\xE9matique du calcul s\xE9curis\xE9 efficace \xE0 deux sous-questions
+    : comment l'utilisation de longues cha\xEEnes al\xE9atoires corr\xE9l\xE9es peut-elle
+    acc\xE9l\xE9rer les protocoles de calcul s\xE9curis\xE9 ? Comment g\xE9n\xE9rer
+    efficacement et de fa\xE7on s\xFBre de longues cha\xEEnes al\xE9atoires corr\xE9l\xE9es
+    ? Nous illustrerons tout d'abord la r\xE9ponse \xE0 la premi\xE8re question en
+    partant d'un protocole de Beaver, et montrerons comment l'usage d'extension de
+    transferts inconscients permet, \xE0 partir d'un simple g\xE9n\xE9rateur pseudo-al\xE9atoire,
+    de r\xE9pondre \xE0 la seconde question dans le cadre du calcul de circuits bool\xE9ens
+    avec s\xE9curit\xE9 passive. En fin d'expos\xE9, nous montrerons comment la notion
+    r\xE9cente de g\xE9n\xE9rateurs de corr\xE9lations pseudo-al\xE9atoires permet
+    de r\xE9aliser cette extension de transferts inconscients avec une communication
+    minimale.\n\nRetrouvez les enregistrements audios et vid\xE9os du cycle et son
+    texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/seminaire/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nChaire
+    Sciences du logiciel\nProfesseur : Xavier Leroy\n\nRetrouvez tous les enseignements
+    du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-08T10:48:16+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (8) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/OFrx9mG1mTE?version=3
+  thumbnail: https://i4.ytimg.com/vi/OFrx9mG1mTE/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nCours du 4 d\xE9cembre 2025 : Calcul multipartite
+    s\xE9curis\xE9 : circuits brouill\xE9s et transfert inconscient\n\nProfesseur
+    : Xavier Leroy\nChaire Sciences du logiciel\n\nNous avons poursuivi l'exploration
+    du calcul multipartite s\xE9curis\xE9 en montrant comment les sch\xE9mas de partage
+    de secrets pr\xE9sent\xE9s dans le cours pr\xE9c\xE9dent permettent de partager
+    des cl\xE9s priv\xE9es entre plusieurs tiers de confiance puis de d\xE9chiffrer
+    conjointement des messages, sans jamais r\xE9v\xE9ler enti\xE8rement la cl\xE9
+    priv\xE9e. Cela permet d'int\xE9grer des \xE9tapes de calcul sur des chiffrements
+    homomorphes dans des protocoles de calcul multipartite.\nLire la suite : https://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees/calcul-multipartite-securise-circuits-brouilles-et-transfert-inconscient\n\nRetrouvez
+    les enregistrements audios et vid\xE9os du cycle et son texte de pr\xE9sentation
+    :\nhttps://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nRetrouvez
+    tous les enseignements du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-08T10:35:49+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (7) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/RSkxzRR9ONA?version=3
+  thumbnail: https://i3.ytimg.com/vi/RSkxzRR9ONA/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nS\xE9minaire du 27 novembre 2025 : Chiffrement
+    totalement homomorphe : panorama, applications et nouvelles directions\n\nIntervenante
+    : Ilaria Chillotti, DESILO Inc\n\nRetrouvez les enregistrements audios et vid\xE9os
+    du cycle et son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/seminaire/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nChaire
+    Sciences du logiciel\nProfesseur : Xavier Leroy\n\nRetrouvez tous les enseignements
+    du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-01T16:10:52+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (6) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/F2nXjLkJ4G4?version=3
+  thumbnail: https://i3.ytimg.com/vi/F2nXjLkJ4G4/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nCours du 27 novembre 2025 : Calcul multipartite
+    s\xE9curis\xE9 : partager des secrets\n\nProfesseur : Xavier Leroy\nChaire Sciences
+    du logiciel\n\nCe cours est le premier d'une s\xE9rie de deux cours consacr\xE9s
+    au calcul multipartite s\xE9curis\xE9 (en anglais : Multi-Party Computation, MPC),
+    un mode de calcul s\xE9curis\xE9 dans lequel plusieurs participants coop\xE8rent
+    pour calculer une fonction de leurs donn\xE9es priv\xE9es, sans jamais les r\xE9v\xE9ler
+    aux autres participants. \xC0 la diff\xE9rence de l'approche du chiffrement homomorphe
+    \xE9tudi\xE9e dans les deux cours pr\xE9c\xE9dents, l'approche multipartite s\xE9curis\xE9e
+    repose sur des algorithmes distribu\xE9s mettant en \u0153uvre des protocoles
+    interactifs.\n\nNous avons \xE9tudi\xE9 plusieurs sch\xE9mas de partage de donn\xE9es
+    secr\xE8tes entre plusieurs participants : le sch\xE9ma GMW (Goldreich-Micali-Wigderson)
+    pour partager des bits entre deux participants ; le partage additif complet, qui
+    g\xE9n\xE9ralise GMW \xE0 un nombre quelconque de participants ; le partage r\xE9pliqu\xE9
+    \xAB deux parmi trois \xBB, qui r\xE9siste \xE0 la panne d'un des participants
+    au prix d'un doublement de la taille des donn\xE9es ; et enfin le partage de Shamir,
+    qui r\xE9siste \xE0 la panne de plusieurs participants et permet \xE9galement
+    de d\xE9tecter voire de corriger les erreurs commises par certains participants.
+    Ces diff\xE9rents sch\xE9mas sont des instances d'une classe g\xE9n\xE9rale de
+    partages lin\xE9aires de secrets (Linear Secret Sharing Scheme, LSSS) qui s'expriment
+    \xE9l\xE9gamment en termes d'alg\xE8bre lin\xE9aire.\n\nPour ces diff\xE9rents
+    sch\xE9mas, nous avons vu comment partager un secret en plusieurs parts (une par
+    participant), comment r\xE9v\xE9ler un secret partag\xE9, et comment effectuer
+    des op\xE9rations arithm\xE9tiques ou logiques sur les secrets partag\xE9s de
+    mani\xE8re distribu\xE9e. Si les op\xE9rations lin\xE9aires (addition, multiplication
+    par une constante) sont simples et peuvent \xEAtre effectu\xE9es de mani\xE8re
+    locale par chaque participant, la multiplication de deux secrets partag\xE9s est
+    plus complexe et n\xE9cessite un \xE9change d'informations entre les participants.\n\nEnfin,
+    nous avons \xE9tudi\xE9 la s\xE9curit\xE9 passive ou active de ces sch\xE9mas
+    de partage de secrets, c'est-\xE0-dire leur capacit\xE9 \xE0 r\xE9sister \xE0
+    des attaques men\xE9es par un participant malveillant ou une collusion de plusieurs
+    participants malveillants. En particulier, les capacit\xE9s de d\xE9tection et
+    de correction d'erreurs des codes de Reed-Solomon sur lesquels repose le partage
+    de Shamir permettent, sous certaines hypoth\xE8ses, de se pr\xE9munir contre des
+    attaques actives o\xF9 les participants malveillants ne suivent pas le protocole
+    et injectent des valeurs incorrectes dans le calcul.\n\nRetrouvez les enregistrements
+    audios et vid\xE9os du cycle et son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nRetrouvez
+    tous les enseignements du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-12-01T14:22:43+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (5) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/r0q6_R_EoTA?version=3
+  thumbnail: https://i3.ytimg.com/vi/r0q6_R_EoTA/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nS\xE9minaire du 20 novembre 2025 : Chiffrement
+    totalement homomorphe CKKS\n\nIntervenant : Damien Stehl\xE9, CryptoLab\n\nLe
+    chiffrement homomorphe CKKS (Cheon, Kim, Kim et Song, Asiacrypt 2017) permet de
+    calculer sur des vecteurs de nombres complexes de grande dimension, sans les divulguer.
+    Ses op\xE9rations \xE9l\xE9mentaires sont l'addition, la multiplication et la
+    conjugaison coordonn\xE9e par coordonn\xE9e, ainsi que la rotation cyclique des
+    coordonn\xE9es.\n\nNous pr\xE9senterons comment effectuer ces op\xE9rations, puis
+    comment les utiliser pour \xE9valuer des polyn\xF4mes et multiplier une matrice
+    par un vecteur. Avec ces outils \xE0 disposition, nous d\xE9crirons le \xAB bootstrap
+    \xBB de CKKS, qui permet d'effectuer des calculs arbitraires. Enfin, nous \xE9voquerons
+    des applications de CKKS, notamment en biom\xE9trie et en apprentissage automatique.\n\nRetrouvez
+    les enregistrements audios et vid\xE9os du cycle et son texte de pr\xE9sentation
+    :\nhttps://www.college-de-france.fr/fr/agenda/seminaire/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nChaire
+    Sciences du logiciel\nProfesseur : Xavier Leroy\n\nRetrouvez tous les enseignements
+    du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-11-24T09:06:35+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (4) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/C9BSbS0CUtw?version=3
+  thumbnail: https://i4.ytimg.com/vi/C9BSbS0CUtw/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nCours du 20 novembre 2026 : Chiffrement
+    totalement homomorphe : calculer sur des donn\xE9es chiffr\xE9es (2)\n\nProfesseur
+    : Xavier Leroy\nChaire Sciences du logiciel\n\nCe cours a poursuivi l'\xE9tude
+    du chiffrement totalement homomorphe entam\xE9e au cours pr\xE9c\xE9dent. Apr\xE8s
+    un rappel de l'approche introduite par Gentry en 2009, qui combine chiffrement
+    faiblement homomorphe et proc\xE9dure de bootstrap, nous avons \xE9tudi\xE9 trois
+    directions pour rendre cette approche plus utilisable.\n\nLa premi\xE8re direction
+    est l'utilisation de chiffrements faiblement homomorphes qui reposent sur le probl\xE8me
+    LWE (Learning With Errors) et ses variantes RLWE et GLWE. Le probl\xE8me LWE,
+    introduit par Regev en 2005, est une g\xE9n\xE9ralisation du probl\xE8me LPN (Learning
+    Parity with Noise), bien connu en th\xE9orie du codage et en th\xE9orie de l'apprentissage
+    statistique, ainsi que du probl\xE8me CVP (Closest Vector Problem) sur les r\xE9seaux
+    euclidiens. LWE permet de construire des sch\xE9mas de chiffrement \xE9l\xE9gants,
+    post-quantiques, et faiblement homomorphes pour l'addition et la multiplication
+    par une constante.\n\nLa deuxi\xE8me direction consiste \xE0 am\xE9liorer l'op\xE9ration
+    de multiplication homomorphe pour qu'elle introduise moins de bruit dans les r\xE9sultats.
+    Nous avons d\xE9taill\xE9 l'approche BGV propos\xE9e par Brakerski, Gentry, et
+    Vaikuntanathan en 2012, qui effectue une \xE9tape de r\xE9duction de module apr\xE8s
+    chaque multiplication, afin de garder le bruit quasi-constant en valeur absolue.
+    Cela augmente consid\xE9rablement la profondeur multiplicative des circuits qui
+    peuvent \xEAtre \xE9valu\xE9s homomorphiquement sans recours \xE0 un bootstrap.\n\nLa
+    troisi\xE8me direction vise \xE0 rendre la proc\xE9dure de bootstrap moins co\xFBteuse.
+    Nous avons \xE9tudi\xE9 l'approche FHEW/TFHE propos\xE9e par Chillotti, Gama,
+    Georgieva et Izabach\xE8ne en 2016, qui repose sur un acc\xE8s index\xE9 homomorphe
+    dans une table de constantes calcul\xE9es et chiffr\xE9es \xE0 l'avance. Combin\xE9e
+    avec un changement de cl\xE9 et un changement de module, cette approche \xE0 base
+    de tables d\xE9bouche sur un bootstrap programmable, qui non seulement r\xE9duit
+    le bruit mais aussi calcule de mani\xE8re homomorphe une fonction des textes clairs
+    dans les textes clairs.\n\nRetrouvez les enregistrements audios et vid\xE9os du
+    cycle et son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nRetrouvez
+    tous les enseignements du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-11-24T09:03:59+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (3) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/vXrpJXM7dkY?version=3
+  thumbnail: https://i3.ytimg.com/vi/vXrpJXM7dkY/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nS\xE9minaire du 13 novembre 2025 : Outils
+    cryptographiques pour le vote \xE9lectronique\n\nIntervenant : Pierrick Gaudry,
+    CNRS\n\nLe vote par Internet est un exemple o\xF9 la cryptographie avanc\xE9e
+    est requise, et d\xE9ploy\xE9e en pratique, afin de garantir de bonnes propri\xE9t\xE9s
+    de s\xE9curit\xE9. Dans cet expos\xE9, nous pr\xE9senterons ce contexte du vote
+    \xE9lectronique, ainsi que le protocole de vote Belenios (simplifi\xE9), afin
+    d'illustrer les besoins en preuves zero-knowledge (ZKP).\n\nEnsuite, nous d\xE9crirons
+    le fonctionnement de ces ZKP utiles au vote, en partant des plus basiques, pour
+    aller progressivement vers des constructions complexes qui rel\xE8vent plut\xF4t
+    du calcul multipartite. Nous expliquerons comment ceci permet d'aller plus loin
+    que le vote classique en termes de secret du vote, gr\xE2ce \xE0 la notion de
+    d\xE9pouillement en aveugle (tally-hiding).\n\nRetrouvez les enregistrements audios
+    et vid\xE9os du cycle et son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/seminaire/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nChaire
+    Sciences du logiciel\nProfesseur : Xavier Leroy\n\nRetrouvez tous les enseignements
+    du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-11-17T09:07:50+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (2) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/mSe0MLruKGY?version=3
+  thumbnail: https://i2.ytimg.com/vi/mSe0MLruKGY/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nCours du 13 novembre 2025 : Chiffrement
+    totalement homomorphe : calculer sur des donn\xE9es chiffr\xE9es (1)\n\nProfesseur
+    : Xavier Leroy\nChaire Sciences du logiciel\n\nCe cours a commenc\xE9 par des
+    rappels sur les algorithmes de chiffrement et la mani\xE8re de sp\xE9cifier et
+    de d\xE9montrer leur s\xE9curit\xE9. Nous avons ensuite introduit la notion de
+    chiffrement semi-homomorphe : les chiffrements qui sont homomorphes pour l'addition
+    ou la multiplication de textes clairs mais pas pour les deux op\xE9rations. Nous
+    en avons montr\xE9 quatre exemples : les chiffrements RSA, d'ElGamal, d'ElGamal
+    exponentiel, et de Paillier. Mais l'objectif ultime est d'obtenir un chiffrement
+    qui soit homomorphe pour l'addition et pour la multiplication, ce qui permettrait
+    d'\xE9valuer de mani\xE8re homomorphe des circuits bool\xE9ens arbitraires, via
+    un encodage des portes logiques par des polyn\xF4mes.\n\nComme premi\xE8re \xE9tape
+    dans cette direction, nous avons introduit la notion de chiffrement faiblement
+    homomorphe, c'est-\xE0-dire homomorphe pour un nombre limit\xE9 d'additions et
+    de multiplications. Nous avons pr\xE9sent\xE9 la construction, due \xE0 van Dijk,
+    Gentry, Halevy et Vaikuntanathan (2010), d'un tel chiffrement utilisant uniquement
+    des nombres entiers. Ce chiffrement peut \xEAtre rendu totalement homomorphe en
+    le combinant avec la proc\xE9dure de bootstrap introduite par Gentry en 2009.
+    Cette proc\xE9dure repose sur l'\xE9valuation homomorphe d'un circuit qui r\xE9alise
+    le d\xE9chiffrement. Elle permet de supprimer la limite sur le nombre d'additions
+    et de multiplications successives, et donc d'\xE9valuer des circuits arbitraires,
+    \xE0 condition que le circuit de d\xE9chiffrement soit suffisamment simple pour
+    \xEAtre \xE9valu\xE9 par un chiffrement faiblement homomorphe, ce qui est difficile
+    \xE0 r\xE9aliser.\n\nRetrouvez les enregistrements audios et vid\xE9os du cycle
+    et son texte de pr\xE9sentation :\nhttps://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nRetrouvez
+    tous les enseignements du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-11-17T09:06:02+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: "Le calcul s\xE9curis\xE9 : calculer sur des donn\xE9es chiffr\xE9es ou priv\xE9es
+    (1) - Xavier Leroy (2025-2026)"
+  content: https://www.youtube.com/watch/psQC-8i6XrE?version=3
+  thumbnail: https://i1.ytimg.com/vi/psQC-8i6XrE/hqdefault.jpg
+  description: "Enseignement 2025-2026 : Le calcul s\xE9curis\xE9 : calculer sur des
+    donn\xE9es chiffr\xE9es ou priv\xE9es\nCours du 6 novembre 2025 : S\xE9curiser
+    le calcul : introduction et \xE9tude de cas\n\nProfesseur : Xavier Leroy\nChaire
+    Sciences du logiciel\n\nCe premier cours sur le calcul s\xE9curis\xE9 a introduit
+    deux approches pour calculer sur des donn\xE9es priv\xE9es sans les r\xE9v\xE9ler
+    aux op\xE9rateurs du calcul : le chiffrement homomorphe, qui permet d'effectuer
+    certains calculs sur des donn\xE9es chiffr\xE9es et de produire des r\xE9sultats
+    \xE9galement chiffr\xE9s, sans donner les cl\xE9s de d\xE9chiffrement au calculateur
+    ; et le calcul multipartite s\xE9curis\xE9, dans lequel plusieurs participants
+    coop\xE8rent pour calculer une fonction de leurs donn\xE9es priv\xE9es, sans jamais
+    r\xE9v\xE9ler ces donn\xE9es aux autres participants. Ces deux approches seront
+    \xE9tudi\xE9es de mani\xE8re plus approfondie dans la suite du cours.\n\nPour
+    compl\xE9ter ce premier cours, nous avons \xE9tudi\xE9 trois exemples d'utilisation
+    de ces techniques. La premi\xE8re \xE9tude de cas est le calcul multipartite d'une
+    moyenne, permettant par exemple \xE0 un groupe d'amis de d\xE9terminer leur salaire
+    moyen sans que chacun r\xE9v\xE8le son salaire aux autres. La deuxi\xE8me \xE9tude
+    de cas porte sur le d\xE9pouillement d'un vote \xE9lectronique simplifi\xE9, utilisant
+    du chiffrement homomorphe pour totaliser les votes sans avoir \xE0 d\xE9chiffrer
+    les bulletins individuellement, ainsi que des preuves \xE0 divulgation nulle de
+    connaissance pour garantir que les votes sont bien form\xE9s sans avoir \xE0 les
+    divulguer. La troisi\xE8me \xE9tude de cas concerne le calcul bipartite de l'intersection
+    de deux ensembles priv\xE9s, un algorithme qui permet par exemple de d\xE9couvrir
+    des contacts sur un r\xE9seau social sans r\xE9v\xE9ler de donn\xE9es personnelles.\n\nRetrouvez
+    les enregistrements audios et vid\xE9os du cycle et son texte de pr\xE9sentation
+    :\nhttps://www.college-de-france.fr/fr/agenda/cours/le-calcul-securise-calculer-sur-des-donnees-chiffrees-ou-privees\n\nRetrouvez
+    tous les enseignements du Pr Xavier Leroy :\nhttps://www.college-de-france.fr/chaire/xavier-leroy-sciences-du-logiciel-chaire-statutaire\nhttps://www.youtube.com/playlist?list=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im\n\nLe
+    Coll\xE8ge de France est une institution de recherche fondamentale dans tous les
+    domaines de la connaissance et un lieu de diffusion du \xAB savoir en train de
+    se faire \xBB ouvert \xE0 tous.\nLes cours, s\xE9minaires, colloques sont enregistr\xE9s
+    puis mis \xE0 disposition du public sur le site internet du Coll\xE8ge de France.\n\nD\xE9couvrez
+    toutes les ressources du Coll\xE8ge de France : \nhttps://www.college-de-france.fr\n\nSoutenir
+    le Coll\xE8ge de France :\nhttps://www.fondation-cdf.fr/faire-un-don\n\nSuivez-nous
+    sur :\nThreads : https://www.threads.net/@collegedefrance\nBluesky : https://bsky.app/profile/college-de-france.fr\nFacebook
+    : https://www.facebook.com/College.de.France\nInstagram : https://www.instagram.com/collegedefrance\nLinkedIn
+    : https://fr.linkedin.com/company/coll%C3%A8gedefrance"
+  published: 2025-11-07T16:57:31+00:00
+  author_name: "Math\xE9matiques et informatique - Coll\xE8ge de France"
+  author_uri: https://www.youtube.com/channel/UCk58LsWC9j892FUMBwN5AsQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtimy8tnozICbD45yhB7Ha_zIBJTIK3im
+  source_title: "Coll\xE8ge de France - Sciences du logiciel"
+- title: Hacking OCaml
+  content: https://www.youtube.com/watch/HVE9WWC0hbQ?version=3
+  thumbnail: https://i1.ytimg.com/vi/HVE9WWC0hbQ/hqdefault.jpg
+  description: 'This talk breaks down a CTF puzzle Corwin de Zahr designed a few years
+    back that involves finding problems and vulnerabilities within the OCaml runtime.
+
+
+    Read the full transcript here: https://www.janestreet.com/tech-talks/hacking-ocaml/'
+  published: 2025-10-24T16:24:04+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJoWyXnJ2BWpse5HuiYibNYs
+  source_title: Jane Street - Tech Talks
+- title: The Saga of Multicore OCaml
+  content: https://www.youtube.com/watch/XGGSPpk1IB0?version=3
+  thumbnail: https://i1.ytimg.com/vi/XGGSPpk1IB0/hqdefault.jpg
+  description: "Jane Street is an electronic trading firm that uses low latency trading
+    systems built in OCaml to provide liquidity to financial markets worldwide. In
+    December 2022, after nearly a decade of development, OCaml 5.0 was released with
+    OCaml\u2019s first multi-core capable runtime. This was an exciting milestone,
+    finally making it possible to write shared-memory parallel programs in OCaml.
+    The new runtime was designed to be easy to adopt: it didn\u2019t disturb OCaml\u2019s
+    FFI, and performance was meant to be only a few percentage points slower in single-core
+    mode. Despite those promising beginnings, switching to runtime-5 within Jane Street
+    was harder than we expected. Indeed, we've only just switched to it this year,
+    after 2.5 years of research and engineering effort. This talk will give an overview
+    of the problems we ran into, and what we learned from the process, including some
+    new ideas that solved some very old problems in the design of OCaml's GC.\n\nRead
+    the full transcript here: https://www.janestreet.com/tech-talks/the-saga-of-multicore-ocaml/"
+  published: 2025-07-24T20:13:04+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJoWyXnJ2BWpse5HuiYibNYs
+  source_title: Jane Street - Tech Talks
+- title: Making OCaml Safe for Performance Engineering
+  content: https://www.youtube.com/watch/g3qd4zpm1LA?version=3
+  thumbnail: https://i4.ytimg.com/vi/g3qd4zpm1LA/hqdefault.jpg
+  description: "Jane Street is a trading firm that uses a variety of high-performance
+    systems built in OCaml to provide liquidity to financial markets worldwide. Over
+    the last couple of years, we have started developing major extensions to OCaml\u2019s
+    type system, with the primary goal of making OCaml a better language for writing
+    high-performance systems. In this talk, we will attempt to provide a developer's-eye
+    view of these changes. We\u2019ll cover two major directions of innovation: first,
+    the addition of modal types to OCaml, which opens up a variety of ambitious features,
+    like memory-safe stack-allocation; type-level tracking of effects, and data-race
+    freedom guarantees for multicore code. The second is the addition of a kind system
+    to OCaml, which provides more control over the representation of memory, in particular
+    allowing for structured data to be represented in a cache-and-prefetch-friendly
+    tabular form. Together, these features pull together some of the most important
+    features for writing high performance code in Rust, while maintaining the relative
+    simplicity of programming in OCaml. In all of this, we will focus less on the
+    type theory, and more on how these features are surfaced to users, the practical
+    problems that they help us solve, and the place in the design space of programming
+    languages that this leaves us in.\n\nRead the full transcript here: https://www.janestreet.com/tech-talks/making-ocaml-safe-for-performance-engineering/"
+  published: 2025-04-03T20:44:20+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJoWyXnJ2BWpse5HuiYibNYs
+  source_title: Jane Street - Tech Talks
+- title: How to Use OCaml's Coercion Operator
+  content: https://www.youtube.com/watch/HNLSyxN-rPE?version=3
+  thumbnail: https://i1.ytimg.com/vi/HNLSyxN-rPE/hqdefault.jpg
+  description: "Description: OCaml supports a subtyping relation, where the type system
+    recognizes that all values of one type are also values of another. It allows coercions
+    from one type to another using the coercion operator. This video demonstrates
+    how it works. (Note: This video doesn\u2019t include anything specific to Jane
+    Street!)\n\nCode written in this video:\nhttps://github.com/goldfirere/janestreet-videos/blob/b6aaa2ea731af13dcbd1c5a50a621574f79dd37e/variance/variance.ml"
+  published: 2024-10-01T20:02:27+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJrgFrWRKn0-1EI3gVZLQJtJ
+  source_title: Jane Street - OCaml Unboxed
+- title: OCaml's New Proposed "include functor" Syntax | OCaml Unboxed
+  content: https://www.youtube.com/watch/SWURUDr_i3w?version=3
+  thumbnail: https://i4.ytimg.com/vi/SWURUDr_i3w/hqdefault.jpg
+  description: 'A well-designed interface offers lots of expressiveness with minimal
+    implementation. OCaml programmers thus often implement just a few functions in
+    an interface (module type), then use a functor to define the rest based on these
+    definitions. This idiom, though useful, can be awkward, requiring a little repetition.
+    To make this easier, Jane Street designed the "include functor" syntax. This video
+    shows how it works and why you might want to use it.
+
+
+
+    View instructions to get the compiler I use in this video: https://github.com/janestreet/opam-repository/tree/with-extensions
+
+
+
+    Reference documentation for the "include functor" feature:
+
+    https://github.com/ocaml-flambda/flambda-backend/blob/main/ocaml/jane/doc/extensions/include-functor.md
+
+
+
+    Code written in this video:
+
+    https://github.com/goldfirere/janestreet-videos/blob/main/include-functor/include_functor.ml
+
+
+
+    Proposal to include "include functor" in mainstream OCaml:
+
+    https://github.com/ocaml/RFCs/pull/43'
+  published: 2024-08-07T18:14:54+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJrgFrWRKn0-1EI3gVZLQJtJ
+  source_title: Jane Street - OCaml Unboxed
+- title: Programming with OCaml's Local Mode | OCaml Unboxed
+  content: https://www.youtube.com/watch/RBulw_Ik8QY?version=3
+  thumbnail: https://i3.ytimg.com/vi/RBulw_Ik8QY/hqdefault.jpg
+  description: 'This OCaml Unboxed episode demonstrates some of the twists and turns
+    you might encounter while programming with locals and introduces the *global modality*.
+    Watching this video might help you learn what to look for when programming with
+    locals!
+
+
+
+    View instructions to get the compiler I use in this video: https://github.com/janestreet/opam-repository/tree/with-extensions
+
+
+
+    Full documentation of locals:
+
+    https://github.com/ocaml-flambda/flambda-backend/blob/main/ocaml/jane/doc/extensions/local/intro.md'
+  published: 2024-06-24T12:40:46+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJrgFrWRKn0-1EI3gVZLQJtJ
+  source_title: Jane Street - OCaml Unboxed
 - title: Regions with OCaml's Local Types | OCaml Unboxed
   content: https://www.youtube.com/watch/tFGlT0mHBs0?version=3
   thumbnail: https://i1.ytimg.com/vi/tFGlT0mHBs0/hqdefault.jpg
@@ -1629,7 +2310,7 @@
     show at https://www.patreon.com/emelletv or don't miss it live by following us
     https://www.twitch.tv/emelletv"
   published: 2023-06-14T14:00:25+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
@@ -1657,7 +2338,7 @@
     Support the show at https://www.patreon.com/emelletv or don''t miss it live by
     following us https://www.twitch.tv/emelletv'
   published: 2023-06-14T13:59:18+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
@@ -1761,7 +2442,7 @@
 
     Support the show at https://www.patreon.com/emelletv'
   published: 2023-01-02T14:02:49+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
@@ -1819,7 +2500,7 @@
 
     Watch live at https://www.twitch.tv/emelletv'
   published: 2022-05-27T16:07:09+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
@@ -1855,7 +2536,7 @@
 
     Watch live at https://www.twitch.tv/emelletv -- Watch live at https://www.twitch.tv/emelletv'
   published: 2022-05-27T16:02:38+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
@@ -1925,7 +2606,7 @@
 
     Watch live at https://www.twitch.tv/emelletv -- Watch live at https://www.twitch.tv/emelletv'
   published: 2022-03-31T13:15:46+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
@@ -2015,7 +2696,7 @@
 
     Watch live at https://www.twitch.tv/emelletv'
   published: 2021-12-02T21:30:00+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
